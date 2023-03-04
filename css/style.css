@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+h1{
+    color: white;
+    font-size: 80pt;
+    font-weight: 100;
+    font-family: Quicksand, helvetica;
+}
+
+h3, h4{
+    color: white;
+    font-size: 30pt;
+    font-weight: 50;
+    font-family: Quicksand, helvetica;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+}
