@@ -1,26 +1,45 @@
+:root{
+    --couleur : white;
+    --background : black;
+    --backgroundCard : white;
+}
+
 @font-face {
     font-family: Quicksand;
     src: url(../Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
 h1{
-    color: white;
+    color: var(--couleur);
     font-size: 80pt;
     font-weight: 100;
     font-family: Quicksand, helvetica;
 }
 
 h3, h4{
-    color: white;
+    color: var(--couleur);
     font-size: 30pt;
     font-weight: 50;
     font-family: Quicksand, helvetica;
 }
 
 body{
-    background-color: black;
+    background-color: var(--background);
 }
 
 .card{
-    background-color: black;
+    background-color: var(--background);
+    border-color: var(--backgroundCard);
+}
+
+.card div{
+    border : 1px solid var(--couleur);
+}
+
+.bgPerso{
+    background-color: var(--couleur);
+}
+
+#mode{
+    color: var(--background);
 }

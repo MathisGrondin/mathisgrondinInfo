@@ -7,6 +7,21 @@ let s;
 
 let auj = new Date();
 
+let mode = document.getElementById('mode');
+
+mode.addEventListener('mousedown', function(){
+    if(mode.innerHTML === 'light_mode'){
+        document.documentElement.style.setProperty('--couleur', 'black');
+        document.documentElement.style.setProperty('--background', 'white');
+        mode.innerHTML = 'dark_mode';
+    }
+    else if(mode.innerHTML === 'dark_mode'){
+        document.documentElement.style.setProperty('--couleur', 'white');
+        document.documentElement.style.setProperty('--background', 'black');
+        mode.innerHTML = 'light_mode';
+    }
+})
+
 
 function format(nombre){
     let nombre2 = "" + nombre;
@@ -24,6 +39,7 @@ function time(){
 
     heure.innerHTML = format(h) + ":" + format(m) + ":"  + format(s);
 }
+
 setInterval(time,1000);
 
 let mois = ['RIEN', 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];

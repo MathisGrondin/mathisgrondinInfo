@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Horloge</title>
 </head>
 <body>
 
-    <div class="card position-absolute top-50 start-50 translate-middle">
-        <div class="card-header"><h1 id="heure"></h1></div>
-        <div class="card-body text-center">
-            <h3 id="date"></h3>
+    <div class="container-fluid h10">
+        <div class="row">
+            <div class="col-xl-12 bgPerso">
+                <span class="material-symbols-outlined" id="mode">light_mode</span>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="card my-5">
+            <div class="card-header text-center"><h1 id="heure"></h1></div>
+            <div class="card-body text-center">
+                <h3 id="date"></h3>
+            </div>
+        </div>
+        <div class="card my-5">
+            <div class="card-header text-center"><h4>Vous appréciez le site web ? </h4></div>
+            <div class="card-body text-center">
+                <h5>Si vous appréciez, vous pouvez utiliser le bouton ci-dessous pour me faire un don</h5>
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="business" value="23D7VA6XVT3WE" />
+                    <input type="hidden" name="no_recurring" value="1" />
+                    <input type="hidden" name="currency_code" value="CAD" />
+                    <input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Bouton Faire un don avec PayPal" />
+                    <img alt="" border="0" src="https://www.paypal.com/fr_CA/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+
+            </div>
         </div>
     </div>
     
