@@ -37,7 +37,7 @@ body{
 }
 
 .bgPerso{
-    background-color: var(--couleur);
+    background-color: var(--backgroundCouleur);
 }
 
 #mode{
