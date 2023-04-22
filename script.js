@@ -50,3 +50,8 @@ date.innerHTML = format(auj.getDate()) + " " + mois[(auj.getMonth() + 1)] + " " 
 let dateSimplifiee = document.getElementById('dateSimplifiee');
 
 dateSimplifiee.innerHTML = format(auj.getDate()) + " / " + format(auj.getMonth() + 1) + " / " + auj.getFullYear()
+
+
+import '@material/web/button/filled-button.js';
+import '@material/web/button/outlined-button.js';
+import '@material/web/checkbox/checkbox.js';
