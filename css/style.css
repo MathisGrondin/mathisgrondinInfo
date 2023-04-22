@@ -38,7 +38,7 @@ body{
 .card{
     background-color: var(--background);
     border-color: var(--backgroundCard);
-    text-emphasis: 50%;
+    border: none;
 }
 
 .card div{
@@ -51,5 +51,5 @@ body{
 }
 
 #mode{
-    color: var(--couleur);
+    color: var(--backgroundCard);
 }
