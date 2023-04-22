@@ -14,17 +14,22 @@
     <div class="container-fluid h10">
         <div class="row">
             <div class="col-xl-12 bgPerso">
-                <span class="material-symbols-outlined" id="mode">dark_mode</span>
+                <a></a>
+                <button display="none">
+                    <span class="material-symbols-outlined" id="mode">star</span>
+                    <span class="material-symbols-outlined" id="mode2">visibility</span>
+                </button>
+                <!-- <span class="material-symbols-outlined" id="mode">dark_mode</span> -->
             </div>
         </div>
     </div>
     <md-checkbox checked></md-checkbox>
     <div class="position-absolute top-50 start-50 translate-middle">
-        <div class="card py-5">
-            <div class="card-header text-center">
-                <h5>Il est présentement</h5>
+        <div class="card py-5 " id="carte">
+            <div class="card-header text-center" id="carte1">
+                <h5 id="texte">Il est présentement</h5>
             </div>
-            <div class="card-body text-center">
+            <div class="card-body text-center" id="carte2">
                 <h1 id="heure"></h1>
                 <h3 id="date"></h3>
             </div>

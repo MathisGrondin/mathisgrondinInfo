@@ -1,7 +1,7 @@
 :root{
-    --couleur : white;
+    --couleur : gray;
     --background : black;
-    --backgroundCard : white;
+    --backgroundCard : grey;
 }
 
 @font-face {
@@ -50,6 +50,12 @@ body{
     background-color: var(--backgroundCouleur);
 }
 
-#mode{
+#mode, #mode2{
     color: var(--couleur);
+    visibility: visible;
+}
+
+button{
+    visibility: hidden;
+    color: var(--backgroundCard);
 }

@@ -7,7 +7,12 @@ let s;
 
 let auj = new Date();
 
+let card = document.getElementById('carte');
+let card1 = document.getElementById('carte1');
+let card2 = document.getElementById('carte2');
+let texte = document.getElementById('texte');
 let mode = document.getElementById('mode');
+let mode2 = document.getElementById('mode2');
 
 mode.addEventListener('mousedown', function(){
     if(mode.innerHTML === 'light_mode'){
@@ -16,12 +21,33 @@ mode.addEventListener('mousedown', function(){
         mode.innerHTML = 'dark_mode';
     }
     else if(mode.innerHTML === 'dark_mode'){
-        document.documentElement.style.setProperty('--couleur', 'white');
+        document.documentElement.style.setProperty('--couleur', 'gray');
         document.documentElement.style.setProperty('--background', 'black');
-        mode.innerHTML = 'light_mode';
+        mode.innerHTML = 'star';
+    }
+    else if(mode.innerHTML === 'star'){
+        document.documentElement.style.setProperty('--couleur', 'lightblue');
+        document.documentElement.style.setProperty('--background', 'darkblue');
+        mode.innerHTML = 'light_mode'
     }
 })
 
+mode2.addEventListener('mousedown', function(){
+    if(mode2.innerHTML === 'visibility'){
+        // card.style.border = 'none';
+        card1.style.border = 'none';
+        card2.style.border = 'none';
+        texte.style.visibility = 'hidden';
+        mode2.innerHTML = 'visibility_off';
+    }
+    else if(mode2.innerHTML === 'visibility_off'){
+        // card.style.border = '1px solid var(--couleur)';
+        card1.style.border = '1px solid var(--couleur)';
+        card2.style.border = '1px solid var(--couleur)';
+        texte.style.visibility = 'visible';
+        mode2.innerHTML = 'visibility';
+    }
+})
 
 function format(nombre){
     let nombre2 = "" + nombre;
