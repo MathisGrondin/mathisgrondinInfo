@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+}
+
+.bgSW{
+    background-image: url('../img/laviolette.jpg');
+    background-position : left;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.hrOrange{
+    border: 3px solid #f05f40;
+    opacity: .99;
+    max-width: 50px;
+    margin: auto;
+}
+.hrWhite{
+    border: 3px solid #ffffff;
+    opacity: .99;
+    max-width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.hrBleu{
+    border: 2px solid #0004ff;
+    opacity: .99;
+    max-width: 500px;
+    margin: auto;
+}
+
+.bgQqch{
+    background-color : darkblue;
+}
+
+.bgImg1{
+    background-image: url('../img/Lav1.jpg');
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.bgImg2{
+    background-image: url('../img/Lav2.png');
+    background-position : right;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.bgImg3{
+    background-image: url('../img/Lav3.jpeg');
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;    
+}
+.bgImg4{
+    background-image: url('../img/lav4.jpg');
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.bgImg5{
+    background-image: url('../img/Lav5.jpg');
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+.bgImg6{
+    background-image: url('../img/Lav6.jpg');
+    background-position : center;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.btn{
+    border-radius: 99999px;
+}
