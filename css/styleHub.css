@@ -1,0 +1,196 @@
+.btn-outline-orange{
+    color: #FFA500;
+    border-color: #FFA500;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+}
+
+.btn-outline-orange:hover{
+    color: #fff;
+    background-color: #FFA500;
+    border-color: #FFA500;
+}
+
+.btn-outline-cegep{
+    color: white;
+    border-color: #092d74;
+    background-color: transparent;
+    border-width: 2px;
+    transition: 0.1s ease-in;
+}
+
+.btn-outline-cegep:hover{
+    color: #fff;
+    background-color: #092d74;
+    border-color: #092d74;
+}
+
+
+.btn-outline-bell{
+    color: #00549a;
+    border-color: #00549a;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-bell:hover{
+    color: #fff;
+    background-color: #00549a;
+    border-color: #00549a;
+}
+
+.btn-outline-youtube{
+    color: #FF0000;
+    border-color: #FF0000;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-youtube:hover{
+    color: #fff;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-outline-desjardins{
+    color: #408948;
+    border-color: #408948;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-desjardins:hover{
+    color: #fff;
+    background-color: #408948;
+    border-color: #408948;
+}
+
+.btn-outline-gouv{
+    color: #095797;
+    border-color: #095797;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-gouv:hover{
+    color: #fff;
+    background-color: #095797;
+    border-color: #095797;
+}
+
+.btn-outline-github{
+    color: #161b22;
+    border-color: #161b22;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-github:hover{
+    color: #fff;
+    background-color: #161b22;
+    border-color: #161b22;
+}
+
+.btn-outline-vscode{
+    color: #026ec1;
+    border-color: #026ec1;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-vscode:hover{
+    color: #fff;
+    background-color: #026ec1;
+    border-color: #026ec1;
+}
+
+.btn-outline-office{
+    color: #e56e01;
+    border-color: #e56e01;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-office:hover{
+    color: #fff;
+    background-color: #e56e01;
+    border-color: #e56e01;
+}
+
+.btn-outline-twitch{
+    color: #9147ff;
+    border-color: #9147ff;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-twitch:hover{
+    color: #fff;
+    background-color: #9147ff;
+    border-color: #9147ff;
+}
+
+.btn-outline-messages{
+    color: #0057cc;
+    border-color: #0057cc;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-messages:hover{
+    color: #fff;
+    background-color: #0057cc;
+    border-color: #0057cc;
+}
+
+.btn-outline-black{
+    color: #000;
+    border-color: #000;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-black:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-messenger{
+    color: #9638ff;
+    border-image: linear-gradient(to bottom left,  #e349a5, #1b89fe) 1 / 2px / 0 stretch ;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 4px;
+}
+
+.btn-outline-messenger:hover{
+    color: #fff;
+    background-color: #9638ff;
+    background-image: linear-gradient(to bottom left,  #e349a5, #1b89fe);
+    border: none;
+}
+
+.btn-outline-fa{
+    color: #528dd7;
+    border-color: #528dd7;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+    border-width: 2px;
+}
+
+.btn-outline-fa:hover{
+    color: #fff;
+    background-color: #528dd7;
+    border-color: #528dd7;
+}
