@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styleAttente.css">
     <title>Attente</title>
@@ -16,23 +17,40 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-xl-12 mb-3">
+            <div class="offset col-xl-2"></div>
+            <div class="col-xl-8 mb-3">
                 <div class="card my-5">
                     <div class="card-header">
-                        <h3>Des précisions</h3>
+                        <h3>À quoi sert ce site web ? </h3>
                     </div>
                     <div class="card-body">
-                        <div class="card-title">
-                            <h4>À quoi sert ce site ? </h4>
-                        </div>
-                        <h6>Il sert pour héberger les site internets que je développe. Ce ne sont pas de «vraies» pages. Elles n'ont aucune utilité. La page présente sert à rediriger vers les sous-pages. Vous pouvez appuyer sur un des boutons pour aller voir ces sous-pages.</h6>
+                        <h6>Il sert pour héberger les site internets que je développe. La page présente sert à rediriger vers les sous-pages. Vous pouvez appuyer sur un des boutons pour aller voir ces sous-pages.</h6>
                     </div>
-                    <div class="card-footer">
-                        <a class="col-xl-2 btn btn-primary" href="horloge.html">horloge</a>
-                        <a href="demo.html" class="btn btn-primary col-xl-2">demo</a>
+                    <div class="card-footer d-flex flex-row justify-content-between">
+                        <a class="col-xl-3 btn btn-primary" href="horloge.html">
+                            <div class="d-flex align-items-center justify-content-center flex-row">
+                                <span class="material-symbols-outlined me-2 fs-4">schedule</span>
+                                <h4 class="fs-6">Horloge</h4>
+                            </div>
+                        </a>
+                        <div class="offset col-xl-1"></div>
+                        <a href="demo.html" class="btn btn-primary col-xl-3">
+                            <div class="d-flex align-items-center justify-content-center flex-row">
+                                <span class="material-symbols-outlined me-2 fs-4">preview</span>
+                                <h4 class="fs-6">Un de mes projets</h4>
+                            </div>
+                        </a>
+                        <div class="offset col-xl-1"></div>
+                        <a href="hub.html" class="btn btn-primary col-xl-3">
+                            <div class="d-flex align-items-center justify-content-center flex-row">
+                                <span class="material-symbols-outlined me-2 fs-4">link</span>
+                                <h4 class="fs-6">Liens utiles</h4>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+            <div class="offset col-xl-2"></div>
         </div>
     </div>
     <script src="js/bootstrap.js"></script>

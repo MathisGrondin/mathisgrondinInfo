@@ -1,3 +1,14 @@
 .bg-bleu{
     background-color: blue;
 }
+
+.card-body{
+    text-align: justify;
+}
+
+.card-footer h4{
+    text-align: center;
+    display: block;
+    margin : 0;
+    padding: 0;
+}
