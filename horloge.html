@@ -9,30 +9,59 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Horloge</title>
 </head>
-<body>
+<body id="body">
 
-    <div class="container-fluid h10">
-        <div class="row">
+    <div class="container-fluid" id="cont">
+        <div class="row" id="rTop">
             <div class="col-xl-12 bgPerso">
-                <a></a>
-                <button display="none">
+                <div class="d-flex align-content-center justify-content-start">
+                    <span>Couleur fond : </span>
+                    <input type="color" id="choixFond" value="#000000" class="mx-1">
+                </div>
+                <div class="d-flex align-content-center justify-content-start">
+                    <span>Texte : </span>
+                    <span class="material-symbols-outlined mx-1" id="mode2">visibility</span> 
+                </div>
+                <div>
+                    <span>Format de l'heure : </span>
+                    <select name="format" id="format" style="background-color: var(--couleur);">
+                        <option value="12">12h</option>
+                        <option value="24">24h</option>
+                    </select>
+                </div>
+                <!-- <button display="none">
                     <span class="material-symbols-outlined" id="mode">star</span>
-                    <span class="material-symbols-outlined" id="mode2">visibility</span>
-                </button>
+                </button> -->
             </div>
+        </div>
+        <div class="row" id="rowSpacet">
+            <div class="offset col-xl-12 col-12"></div>
+        </div>
+        <div class="row" id="rBas">
+            <div class="offset col-xl-4"></div>
+            <div class="card py-5 col-xl-4" id="carte">
+                <div class="card-header text-center" id="carte1">
+                    <h5 id="texte">Il est présentement</h5>
+                </div>
+                <div class="card-body flex-row d-flex" id="carte2">
+                    <!-- <div class="d-flex flex-row justify-content-evenly align-content-center p-0 m-0 border-0 h-100" id="rowFormat">
+                        <h1 id="heure"></h1>
+                    </div> -->
+                    <div id="heureV2" class="align-self-center d-flex h-100 w-100 justify-content-center align-items-center border-0" id="rowFormat">
+                        <h1 id="heure" class="w-100 text-center p-0 m-0">00:00:00</h1>
+                    </div>
+                </div>
+                <div class="card-footer text-center" id="jour">
+                    <h3 id="date"></h3>
+                </div>
+            </div>
+            <div class="offset col-xl-4"></div>
+        </div>
+        <div class="row" id="rowSpaceb">
+            <div class="offset col-xl-12 col-12"></div>
         </div>
     </div>
-    <md-checkbox checked></md-checkbox>
     <div class="position-absolute top-50 start-50 translate-middle">
-        <div class="card py-5 " id="carte">
-            <div class="card-header text-center" id="carte1">
-                <h5 id="texte">Il est présentement</h5>
-            </div>
-            <div class="card-body text-center" id="carte2">
-                <h1 id="heure"></h1>
-                <h3 id="date"></h3>
-            </div>
-        </div>
     </div>
     
     <script src="script.js"></script>

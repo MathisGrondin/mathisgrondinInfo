@@ -9,10 +9,15 @@
     src: url(../Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
-h1{
+
+#heure{
     color: var(--couleur);
-    font-size: 80pt;
-    font-weight: 100;
+    font-size: 60pt;
+    font-weight: 50;
+    font-family: Quicksand, helvetica;
+}
+h2{
+    color: var(--couleur);
     font-family: Quicksand, helvetica;
 }
 
@@ -58,4 +63,23 @@ body{
 button{
     visibility: hidden;
     color: var(--backgroundCard);
+}
+#rTop{
+    height: 10vh;
+    width: 100vw;
+}
+
+#rBas{
+    height: 50vh;
+    width: 100vw;
+}
+
+#rowSpacet{
+    height:15vh;
+    width: 100vw;
+}
+
+#rowSpaceb{
+    height: 25vh;
+    width: 100vw;
 }
