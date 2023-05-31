@@ -82,7 +82,6 @@ date.innerHTML = format(auj.getDate()) + " " + mois[(auj.getMonth() + 1)] + " " 
 
 let dateSimplifiee = document.getElementById('dateSimplifiee');
 
-// dateSimplifiee.innerHTML = format(auj.getDate()) + " / " + format(auj.getMonth() + 1) + " / " + auj.getFullYear()
 
 let body = document.getElementById('body');
 
@@ -117,10 +116,9 @@ function time12(){
 
     heure.innerHTML = format(h) + ":" + format(m) + ":"  + format(s);
 }
-setFormat('12');
 var formatTemps;
 function setFormat(value){
-
+    
     if(value === '12'){
         document.getElementById('carte2').appendChild(formats);
         clearInterval(formatTemps);
@@ -133,6 +131,7 @@ function setFormat(value){
     }
 }
 
+setFormat('12');
 
 formatHeure.addEventListener('change', function(){
     clearInterval(formatTemps);
