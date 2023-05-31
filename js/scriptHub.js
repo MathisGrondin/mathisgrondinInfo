@@ -7,4 +7,8 @@ logodesj.addEventListener("mouseover", function () {
 
 logodesj.addEventListener("mouseout", function () {
     logodesj2.src = "img/logodesj.png";
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 84e21f6973fd55b16c09bbc1374b899bba3da294
