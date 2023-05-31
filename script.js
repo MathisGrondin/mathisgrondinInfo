@@ -33,24 +33,6 @@ formats.appendChild(am);
 formats.appendChild(pm);
 
 
-// mode.addEventListener('mousedown', function(){
-//     if(mode.innerHTML === 'light_mode'){
-//         document.documentElement.style.setProperty('--couleur', 'black');
-//         document.documentElement.style.setProperty('--background', 'white');
-//         mode.innerHTML = 'dark_mode';
-//     }
-//     else if(mode.innerHTML === 'dark_mode'){
-//         document.documentElement.style.setProperty('--couleur', 'gray');
-//         document.documentElement.style.setProperty('--background', 'black');
-//         mode.innerHTML = 'star';
-//     }
-//     else if(mode.innerHTML === 'star'){
-//         document.documentElement.style.setProperty('--couleur', 'lightblue');
-//         document.documentElement.style.setProperty('--background', 'darkblue');
-//         mode.innerHTML = 'light_mode'
-//     }
-// })
-
 mode2.addEventListener('mousedown', function(){
     if(mode2.innerHTML === 'visibility'){
         // card.style.border = 'none';
