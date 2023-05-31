@@ -16,7 +16,7 @@ let mode = document.getElementById('mode');
 let mode2 = document.getElementById('mode2');
 
 let formats = document.createElement('div');
-formats.setAttribute('class', 'flex-column align-self-end d-flex justify-content-evenly align-items-center h-100 w-25 border-bottom-0 border-start-1 border-end-0 border-top-0 border-white');
+formats.setAttribute('class', 'flex-column align-self-end d-flex justify-content-evenly align-items-center h-100 w-25 border-bottom-0 border-start-1 border-end-0 border-top-0');
 formats.setAttribute('id', 'formV2');
 
 let am = document.createElement('h6');
@@ -50,7 +50,7 @@ mode2.addEventListener('mousedown', function(){
         card2.style.border = '1px solid var(--couleur)';
         texte.style.visibility = 'visible';
         document.getElementById('jour').setAttribute('class', 'border-1 card-footer text-center');
-        formats.setAttribute('class', 'flex-column align-self-end d-flex justify-content-evenly align-items-center h-100 w-25 border-bottom-0 border-start-1 border-end-0 border-top-0 border-white');
+        formats.setAttribute('class', 'flex-column align-self-end d-flex justify-content-evenly align-items-center h-100 w-25 border-bottom-0 border-start-1 border-end-0 border-top-0');
         texte.style.color = 'var(--couleur)';
         mode2.innerHTML = 'visibility';
     }
