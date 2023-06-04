@@ -16,6 +16,7 @@
     font-weight: 50;
     font-family: Quicksand, helvetica;
 }
+
 h2{
     color: var(--couleur);
     font-family: Quicksand, helvetica;
@@ -42,7 +43,7 @@ body{
 
 .card{
     background-color: var(--background);
-    border-color: var(--backgroundCard);
+    border-color: var(--couleur);
     border: none;
 }
 
@@ -75,11 +76,64 @@ button{
 }
 
 #rowSpacet{
-    height:15vh;
+    height:5vh;
     width: 100vw;
 }
 
 #rowSpaceb{
     height: 25vh;
     width: 100vw;
+}
+
+.border-perso{
+    border-color: var(--couleur);
+}
+
+
+#format{
+    background-color: var(--background);
+    color: var(--couleur);
+    border-radius: 99999px;
+}
+
+#mot{
+    padding: 0px;
+    margin: 0px;
+    color: var(--couleur);
+}
+#mode2{
+    border: 1px solid var(--couleur);
+    border-radius: 99999px;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#choixFond {
+    padding: 0;
+    border-radius: 99999px;
+}
+#choixFond::-webkit-color-swatch {
+  border-radius: 99999px;
+  padding: 0;
+}
+
+#choixFond::-webkit-color-swatch-wrapper {
+  border-radius: 99999px;
+  padding: 0;
+}
+
+#cfCard{
+  height: 100vh;
+  width: 100vw;
+}
+
+#carte3{
+    display: none;
+}
+
+#carte2{
+    display: flex;
+    flex-direction: row;
 }

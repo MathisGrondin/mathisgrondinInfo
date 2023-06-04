@@ -7,57 +7,61 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="favicon" href="img/favicon.png">
     <title>Horloge</title>
 </head>
 <body id="body">
 
-    <div class="container-fluid" id="cont">
-        <div class="row" id="rTop">
-            <div class="col-xl-12 bgPerso">
-                <div class="d-flex align-content-center justify-content-start">
-                    <span>Couleur fond : </span>
-                    <input type="color" id="choixFond" value="#000000" class="mx-1">
-                </div>
-                <div class="d-flex align-content-center justify-content-start">
-                    <span>Texte : </span>
-                    <span class="material-symbols-outlined mx-1" id="mode2">visibility</span> 
-                </div>
-                <div>
-                    <span>Format de l'heure : </span>
-                    <select name="format" id="format" style="background-color: var(--couleur);" title="Sélection du format de l'heure">
-                        <option value="12">12h</option>
-                        <option value="24">24h</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="rowSpacet">
-            <div class="offset col-xl-12 col-12"></div>
-        </div>
+    <div class="container-fluid d-flex align-items-center justify-content-center" id="cfCard">
         <div class="row" id="rBas">
             <div class="offset col-xl-4"></div>
             <div class="card py-5 col-xl-4" id="carte">
-                <div class="card-header text-center" id="carte1">
-                    <h5 id="texte">Il est présentement</h5>
+                <div class="card-header text-center border border-2 border-perso" id="carte1">
+                    <h5 id="texte" class="p-0 m-0">Il est présentement</h5>
                 </div>
-                <div class="card-body flex-row d-flex" id="carte2">
-                    <div id="heureV2" class="align-self-center d-flex h-100 w-100 justify-content-center align-items-center border-0" id="rowFormat">
-                        <h1 id="heure" class="w-100 text-center p-0 m-0"></h1>
+                <div class="card-body border border-2 border-perso" id="cardBody">    
+                    <div class="border-0" id="carte2">
+                        <div id="heureV2" class="align-self-center d-flex h-100 w-100 justify-content-center align-items-center border-0" id="rowFormat">
+                            <h1 id="heure" class="w-100 text-center p-0 m-0"></h1>
+                        </div>
+                    </div>
+                    <div class="border-0 container-fluid" id="carte3">
+                        <div class="row border-0 my-1" id="menuOpt">
+                            <div class="col-xl-6 border-0">
+                                <p class="p-0 m-0 border-0">Couleur de fond : </p>
+                            </div>
+                            <input placeholder="test" type="color" id="choixFond" value="#000000" class="btn col-xl-6">
+                        </div>
+                        <div class="row border-0">
+                            <div class="col-xl-6 border-0">
+                                <p class="p-0 m-0">Texte : </p>
+                            </div>
+                            <div class="btn col-xl-6 m-0 p-0" id="mode2">
+                                <span class="material-symbols-outlined" id="mot">visibility</span> 
+                            </div>
+                        </div>
+                        <div class="row border-0 my-1">
+                            <div class="col-xl-6 border-0">
+                                <p class="p-0 m-0">Format de l'heure : </p>
+                            </div>
+                            <select name="format" id="format" name="test" title="test" class="col-xl-6">
+                                <option value="12">12h</option>
+                                <option value="24">24h</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <div class="card-footer text-center" id="jour">
-                    <h3 id="date"></h3>
+                <div class="card-footer text-center border border-2 border-perso" id="jour">
+                    <h3 id="date" class="p-0 m-0"></h3>
+                </div>
+                <div class="btn border-perso d-flex flex-row align-content-center justify-content-between align-items-center mt-2" id="boutOpt">
+                    <span class="material-symbols-outlined" id="logo">settings</span>
+                    <p class="p-0 m-0" id="texteOpt">Options</p>
                 </div>
             </div>
             <div class="offset col-xl-4"></div>
         </div>
-        <div class="row" id="rowSpaceb">
-            <div class="offset col-xl-12 col-12"></div>
-        </div>
     </div>
-    <div class="position-absolute top-50 start-50 translate-middle">
-    </div>
-    
     <script src="script.js"></script>
 </body>
 </html>

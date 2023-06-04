@@ -1,0 +1,40 @@
+header{
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    height: 5vh;
+
+}
+
+nav a{
+    height: 5vh;
+    padding: 0;
+    margin: 0;
+}
+
+nav .vr{
+    height: 5vh;
+    background-color: black;
+    width: 1px;
+    margin: 0 10px;
+}
+main{
+    height: 85vh;
+    text-align: justify;
+    /* background-color: green; */
+}
+
+.h-5{
+    height: 5vh;
+    width: 100%;
+}
+
+/* main div{
+    height: 75vh;
+} */
