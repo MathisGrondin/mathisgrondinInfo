@@ -1,40 +1,85 @@
 header{
     height: 10vh;
     /* background-color: blue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-nav{
-    height: 5vh;
-
-}
-
-nav a{
-    height: 5vh;
-    padding: 0;
     margin: 0;
 }
 
-nav .vr{
-    height: 5vh;
-    background-color: black;
-    width: 1px;
-    margin: 0 10px;
-}
+
 main{
-    height: 85vh;
     text-align: justify;
     /* background-color: green; */
 }
 
-.h-5{
-    height: 5vh;
-    width: 100%;
+
+#nomTitre{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
 }
 
+.carousel, .carousel-item, .carousel-inner{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#containerNav{
+    height: 15vh;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+#containerPres{
+    height: 100vh;
+}
+
+#containerEtudes{
+    height: 100vh;
+
+}
+
+#containerBas{
+    height: 10vh;
+    position: sticky;
+    bottom:0;
+    z-index: 1;
+}
+
+body, html{
+    max-width: 100vw;
+}
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#expand{
+    font-size: 4.7em;
+    color: gray;
+    opacity: 0.5;
+    transform: translate(0, -10px);
+    transition: 0.2s;
+    size: 25%;
+}
+
+#expand:hover{
+    color: black;
+    opacity: 1;
+    transform: translate(0, 20px);
+    transition: 0.2s;
+    size: 25%;
+}
+
+#containerBas:hover{
+    background-image: linear-gradient(rgba(255,255,255), rgba(95, 90, 90, 0.15));
+}
+
+
+/* #photo{
+    height: 50%;
+    object-fit: cover;
+} */
 /* main div{
     height: 75vh;
 } */
